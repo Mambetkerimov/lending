@@ -1,0 +1,97 @@
+// main: ../style.less
+
+.articles {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 0 -1rem;
+
+}
+
+.articles-item {
+    margin-bottom: 2rem;
+}
+
+.articles-col {
+    width: 33.33333%;
+
+    padding: 0 1rem;
+}
+
+.articles-header {
+    position: relative;
+    margin-bottom: 1.35rem;
+}
+
+.articles-date {
+    width: 77px;
+    height: 77px;
+
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: @black;
+
+    text-align: center;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+    color: @white;
+    font-size: 1.06rem;
+    line-height: 1.4;
+}
+
+.articles-title {
+    font-size: 1.2rem;
+    color: @black;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    margin-bottom: .6rem;
+
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.articles-cat {
+    font-size: .8rem;
+    color: @black;
+    text-transform: uppercase;
+
+    margin-bottom: 1.5rem;
+}
+
+.articles-text {
+    font-size: .8rem;
+    color: @gray;
+    font-weight: 300;
+    line-height: 2;
+}
+
+
+
+
+
+
+
+
+
+
